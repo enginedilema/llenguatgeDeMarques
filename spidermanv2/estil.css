@@ -1,0 +1,64 @@
+body {
+    background-color: grey;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+h1 {
+    color: red;
+    background-color: black;
+    max-width: 100%;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    border: 2px solid red;
+}
+nav {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border: 2px solid blue;
+    display: flex;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+nav li {
+    margin-right: 10px;
+}
+nav a{color:white;
+}
+nav a:hover {
+    color: white;
+    background-color: red;
+    margin-right: 10px;
+}
+
+a.wiki {
+    padding: 15px;
+    background-color: red;
+    color: white;
+}
+a.wiki:hover {
+    background-color: white;
+    color: red;
+}
+section:nth-child(odd){
+    background-color: black;
+    color: white;
+    padding: 20px;
+    margin:10px;
+    border: 2px solid blue;
+}
+section:nth-child(even){
+    background-color: black;
+    color: white;
+    padding: 20px;
+    margin: 10px;
+    border: 2px solid red;
+}
+section ul:nth-child(2){
+    background-color: grey;
+}
